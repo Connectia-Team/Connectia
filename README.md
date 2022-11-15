@@ -2,6 +2,9 @@
 
 Developed with Unreal Engine 5
 
+### Style Guide
+https://github.com/Allar/ue5-style-guide/blob/main/README.md
+
 ### Repo Structure
 
 Repository structure is fixed, and it only has a few toplevel directories. Every other directory or file is ignored.
