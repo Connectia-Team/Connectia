@@ -28,3 +28,5 @@
 #*.icns lfs
 # Movies
 #*.bk2 lfs
+# Large (>100 MB) files
+/Content/Effects/Textures/Flipbooks/SmokeSwirl_3_Flipbook_CHANNELPACK.uasset lock
