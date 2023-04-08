@@ -11,5 +11,9 @@ public class ConnectiaServerTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
 		ExtraModuleNames.AddRange( new string[] { "Connectia" } );
-	}
+        BuildEnvironment = TargetBuildEnvironment.Unique;
+        bUseLoggingInShipping = true;
+
+        GlobalDefinitions.Add("ALLOW_BLUEPRINT_LOGS_IN_SHIPPING=1");
+    }
 }
